@@ -1,0 +1,53 @@
+.story2{
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    .story2__center{
+        width: 75%;
+        height: inherit;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        .story2__center__item{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            row-gap: 10px;
+          
+           
+
+
+                a{
+                    width: inherit;
+                    height: inherit;
+                  
+                    img{
+                        width: 52px;
+                        height: 52px;
+                        border-radius: 50%;
+                    }
+                    span{
+                        font-family: var(--fontfamily);
+                        font-size: 12px;
+                        width: 52px;
+                        display: inline-block;
+                        text-align: center;
+                    }
+                 
+
+
+               
+                  
+
+                
+            }
+        }
+    
+    }
+}

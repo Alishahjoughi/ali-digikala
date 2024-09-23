@@ -1,0 +1,140 @@
+.favorite{
+    width: 100%;
+    height: 400px;
+    /* background-color: #2b2b2b; */
+    display: flex;
+    justify-content: center;
+    
+   
+  
+  
+    .favorite__center{
+        width: 75%;
+        max-width: 1336px;
+        height: inherit;
+        /* background-color: blueviolet; */
+        border: 1px solid lightgray;
+        border-radius: var(--borderRAdiusMedium);
+        padding-bottom: 75px;
+        margin-top: 5px;
+     
+       
+        a{
+          text-decoration: none;
+        
+        
+          p{
+            text-align: left;
+           padding-top: 20px;
+           color: #19bfd3;
+          margin-left: 15px;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 2.15;
+      
+          }
+
+        }
+    
+        .matn{
+          display: flex;
+          flex-flow: row wrap;
+          column-gap: 5px;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: -10px;
+          margin-top: -40px;
+
+          img{
+            width: 24px;
+            height: 24px;
+            margin-bottom: -15px;
+          }
+          
+                
+        p{
+          text-align: center;
+          margin-top: 15px;
+          font-weight: 500;
+          line-height: 2.1;
+          font-size: 20px;
+          color: #0c0c0c;
+        
+        }
+        a{
+        text-decoration: none;
+      margin-left: 100px;
+      
+
+        }
+      
+        }
+
+     
+        }
+       
+  
+        .swiper {
+            width: 100%;
+            height: 100%;
+   
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+            row-gap: 10px;
+            .favorite__item{
+              width: 100%;
+              /* height: 100%; */
+              /* background-color: red; */
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              column-gap: 10px;
+          
+              .favorite__image{
+                img{
+                  width: 86px;
+                  height: 86px;
+               
+               
+                }
+             
+              }
+              .favorite__number{
+                font-size: 20px;
+                font-family: var(--fontnazanin);
+                
+                font-weight: bold;
+                color: aqua;
+               
+               
+
+              }
+              .favorite__text{
+               
+                font-size: 12px;
+                border-bottom: 1px solid lightgray;
+              
+              
+               
+              }
+
+            }
+          }
+      
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        
+    }
+}
