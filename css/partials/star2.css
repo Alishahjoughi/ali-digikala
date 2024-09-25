@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     padding: 5px;
+    margin-bottom: 10px;
     .star2__center{
         width: 75%;
         max-width: 1336px;

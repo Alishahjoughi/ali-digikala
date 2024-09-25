@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     margin-top: 16px;
+    margin-bottom: 80px;
     
     .chosen__center{
         width: 75%;
@@ -13,7 +14,7 @@
         
         display: flex;
         flex-flow: column wrap;
-        border: 1px solid lightgray;
+        border: 2px solid #f0f0f1;
         border-radius: 15px;
         
        .text{
@@ -46,7 +47,7 @@
                 flex-flow: column wrap;
                 align-items: center;
                 justify-content: center;
-                border: solid lightgray ;
+                border:  solid #f0f0f1 ;
                 border-width: 0 1px 1px 1px;
                 padding-left: 20px;
         
